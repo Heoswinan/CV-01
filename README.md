@@ -1,16 +1,19 @@
-# 个人简历网站（何栩楠）
+# CV Website — He Xunan / 何栩楠
 
-本仓库包含一个简单的个人简历静态网站。
+This repository contains a simple, static curriculum vitae website.
 
-文件：
+Files
 
-- `index.html` — 主页，已填写姓名与学历（何栩楠，艺术科技与商业硕士）。
-- `styles.css` — 基本样式。
+- `index.html` — The main page. Replaced with an English CV (He Xunan) that includes a full set of embedded styles inside the file.
+- `styles.css` — Legacy external stylesheet kept for small-theme or future extraction. The current `index.html` uses inline CSS; if you prefer to use `styles.css`, remove the <style> block from `index.html` and add the link tag instead.
 
-如何修改：
+How to modify
 
-1. 编辑 `index.html`，替换教育、项目、联系方式等内容。
-2. 提交更改并推送到 GitHub。
-3. 若要通过 GitHub Pages 发布：Settings → Pages → 选择 `main` 分支的根目录，保存即可。
+1. Edit `index.html` to update the CV content (name, education, experience, contact details, etc.).
+2. Commit and push your changes to GitHub.
+3. To publish via GitHub Pages: Settings → Pages → select the `main` branch (root) and save.
 
-如果你希望我把更多内容（例如中文/英文两种语言、简历下载 PDF、或联系表单）加入网站，回复我需要的内容，我会帮你更新代码并提交。
+Notes
+
+- I replaced the previous Chinese resume page with an English CV version for "He Xunan". If you'd rather restore the previous file, you can revert the commit or I can restore it for you.
+- If you want bilingual support (Chinese + English), a downloadable PDF, or a contact form, tell me what content and I will update and submit the changes.
